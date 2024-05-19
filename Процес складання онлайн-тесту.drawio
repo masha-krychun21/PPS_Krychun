@@ -1,0 +1,46 @@
+<mxfile host="Electron" modified="2024-05-14T07:57:13.502Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Ephe-Kt-iJ3S76F2uLLQ" version="24.2.5" type="device">
+  <diagram name="Сторінка-1" id="7jgPsf5xfPqJDvQnffWc">
+    <mxGraphModel dx="1290" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JCWoHggTrz0kbveJrchV-1" value="Авторизований&amp;nbsp;&lt;div&gt;користувач&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="50" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JCWoHggTrz0kbveJrchV-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="110" y="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JCWoHggTrz0kbveJrchV-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="JCWoHggTrz0kbveJrchV-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCWoHggTrz0kbveJrchV-4" value="Проходження тесту" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="60" y="190" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JCWoHggTrz0kbveJrchV-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JCWoHggTrz0kbveJrchV-4" target="JCWoHggTrz0kbveJrchV-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCWoHggTrz0kbveJrchV-6" value="Вибір тесту" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="140" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JCWoHggTrz0kbveJrchV-10" value="Перегляд результатів" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="60" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JCWoHggTrz0kbveJrchV-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="JCWoHggTrz0kbveJrchV-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCWoHggTrz0kbveJrchV-12" value="Завершення тесту" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="250" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JCWoHggTrz0kbveJrchV-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="105" y="400" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
